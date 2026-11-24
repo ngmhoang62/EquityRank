@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu132
+numpy==2.2.6
+pandas==2.2.3
+ipykernel==6.29.5
+nbclient==0.10.2
+matplotlib==3.10.3
+scikit-learn==1.6.1
+lightgbm==4.6.0
+joblib==1.6.0
+torch==2.14.1+cu132
+xgboost==3.1.2

@@ -1,0 +1,17 @@
+{
+  "version": "ridge-jpx-v1",
+  "test_start": "2021-12-09",
+  "alpha": 10000,
+  "features": [
+    "return_1",
+    "return_5",
+    "return_20",
+    "intraday_range",
+    "volatility_20",
+    "relative_turnover_20"
+  ],
+  "required_signal_features": ["return_1", "return_20"],
+  "portfolio_size": 200,
+  "random_seeds": [7, 19, 37, 73, 101],
+  "cost_rates_bps": [0, 2, 5]
+}
